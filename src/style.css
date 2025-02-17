@@ -1,0 +1,124 @@
+@import url(./reset.css);
+@import url(./global.css);
+
+body{
+    font-family: "Inter", sans-serif;
+    padding: 0 92px;
+}
+
+header{
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--green);
+}
+.containerTop{
+    padding: 14px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.logoHome{
+   height: 20px;
+}
+
+header div h1 {
+    font-weight: 300;
+    font-size: 20px;
+}
+header div p{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+main{
+    margin-top: 90px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.containerText{
+    width: 550px;
+    height: 340px;
+
+}
+.containerText .btnCta1{
+    padding: 4px 4px;
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+.containerText h2 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 55px;
+}
+.containerText p{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    color: (--font-paragraph);
+}
+.btnCta2 {
+    display: flex;
+    margin-top: 22px;
+    gap: 20px;
+}
+.btnStyle{
+    padding: 6px 16px;
+    background-color: var(--white);
+    color: var(--font-paragraph);
+    border: 2px solid var(--btn-silver);
+    border-radius: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.containerImg{
+    height:  470px;
+    width: 650px;
+    border-radius: 30px;
+}
+
+.containerFooter{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.statistic{
+    height: 70px;
+    width: 230px;
+    text-align: center;
+
+}
+.stateValue{
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--green);
+}
+.statistic p {
+    margin-top: 6px;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--font-paragraph);
+}
+.ctaWhatsapp{
+    margin-top: 60px;
+    height: 60px;
+    /* width: 60px; */
+    display: flex;
+    position: absolute;
+    right: 28px;
+}
